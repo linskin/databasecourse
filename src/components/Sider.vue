@@ -1,7 +1,9 @@
 <template>
-  <a-layout-sider collapsible theme="light">
-    <div class="logo">System</div>
+  <a-layout-sider collapsible theme="light" >
   <a-menu mode="vertical">
+    <a-menu-item>
+      <span>System</span>
+    </a-menu-item>
     <a-menu-item key="1" >
       <pie-chart-outlined />
       <span>HomePage</span>
@@ -49,12 +51,5 @@ export default {
 </script>
 
 <style scoped>
-.logo{
-  background-color: rgba(0, 0, 0, 0.15);
-  font-size: 30px;
-  text-align: center;
-  //width: inherit;
-  //height: inherit;
-  padding: 5px;
-}
+
 </style>
